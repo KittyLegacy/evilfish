@@ -49,10 +49,6 @@ body {
     user-select: none; 
 }   
 
-form .home {
-    display: none;
-}
-
 @media (max-width: 600px) {
     #menu {
         display: none;
@@ -66,16 +62,6 @@ form .home {
         left: 50%;
         margin-top: -100px;
         margin-right: 100px;
-    }
-
-   form .home  {
-        display: block;
-        color: white;
-        background-color: rgb(63, 63, 63);
-        outline:0;
-        padding:10px 40px;
-        border-radius: 10px;
-        
     }
     
 }
@@ -95,16 +81,6 @@ form .home {
         margin-right: 100px;
     }
 
-    form .home  {
-        display: block;
-        color: white;
-        background-color: rgb(63, 63, 63);
-        outline:0;
-        padding:10px 40px;
-        border-radius: 10px;
-        
-    }
-
 }    
 
 @media (max-width: 1600px) {
@@ -122,15 +98,6 @@ form .home {
         margin-right: 100px;
     }
 
-    form .home  {
-        display: block;
-        color: white;
-        background-color: rgb(63, 63, 63);
-        outline:none;
-        padding:10px 40px;
-        border-radius: 10px;
-        
-    }
 
 }
 
