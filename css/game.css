@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: black;
+}
+
+#canvas1 {
+    border: 5px solid black;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #4d79bc;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+#layer1, #layer2, #layer3, #player, #angler1, #angler2, #lucky, #projectile, #gears {
+    display: none;
+}
+
+#phone {
+    -webkit-user-select: none; 
+    -ms-user-select: none; 
+    user-select: none; 
+}
+
+@media (max-width: 600px) {
+    #canvas1 {
+        display: none;
+    }    
+
+    #phone {
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+        position: center;
+        top: 50%;
+        left: 50%;
+        margin-top: -100px;
+        margin-right: 100px;
+    }
+
+    #htext {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+    #canvas1 {
+        display: none;
+    }   
+
+    #phone {
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        margin-top: -100px;
+        margin-right: 100px;
+    }
+
+    #htext {
+        display: none;
+    }
+
+}    
+
+@media (max-width: 1600px) {
+    #canvas1 {
+        display: none;
+    }   
+
+    #phone {
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        margin-top: -100px;
+        margin-right: 100px;
+    }
+
+    #htext {
+        display: none;
+    }
+
+}
